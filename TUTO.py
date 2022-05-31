@@ -96,8 +96,8 @@ def login():
 		print (logo)
 		print (R + '◈━━━━▷' + S + ' Login With ✬🄵🄰🄲🄴🄱🄾🄾🄺✬ ' + R + '◁━━━━◈')
 		print
-		id=raw_input(S + '[☆] ' + S + 'Email: moneyonlinesb@gmail.com' + G +'')
-		pwd=getpass.getpass(S + '[♡] ' + R + 'Password :David@Silva')
+		id=raw_input(S + '[☆] ' + S + 'Email: ' + G +'')
+		pwd=getpass.getpass(S + '[♡] ' + R + 'Password :')
 		data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(id)+"&locale=en_US&password="+(pwd)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 		z=json.load(data)
 		if 'access_token' in z:
