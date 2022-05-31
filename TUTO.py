@@ -62,7 +62,7 @@ def trb():
 ##### LOGO #####
 logo='''
 \033[1;94m ┈┈┈┈╱▔▔▔▔╲┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈╱▔▔▔▔╲┈┈┈┈
-\033[1;94m ┈┈┈▕▕B4 M4▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕B4 M4▏▏┈┈┈
+\033[1;94m ┈┈┈▕▕N4 H4▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕N4 H4▏▏┈┈┈
 \033[1;94m ┈┈┈▕▕▂╱╲▂▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕▂╱╲▂▏▏┈┈┈
 \033[1;94m ┈┈┈┈╲┊┊┊┊╱┈┈┈┈\033[1;94mShabirBaloch.\033[1;91m┈┈┈┈╲┊┊┊┊╱┈┈┈┈
 \033[1;96m ┈┈┈┈▕╲▂▂╱▏┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈▕╲▂▂╱▏┈┈┈┈
@@ -96,8 +96,8 @@ def login():
 		print (logo)
 		print (R + '◈━━━━▷' + S + ' Login With ✬🄵🄰🄲🄴🄱🄾🄾🄺✬ ' + R + '◁━━━━◈')
 		print
-		id=raw_input(S + '[☆] ' + S + 'Email: ' + G +'')
-		pwd=getpass.getpass(S + '[♡] ' + R + 'Password : ')
+		id=raw_input(S + '[☆] ' + S + 'Email: moneyonlinesb@gmail.com' + G +'')
+		pwd=getpass.getpass(S + '[♡] ' + R + 'Password :David@Silva')
 		data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(id)+"&locale=en_US&password="+(pwd)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 		z=json.load(data)
 		if 'access_token' in z:
@@ -165,7 +165,7 @@ def mb():
 		pak()
 	elif bm =='2':
 	    os.system('rm -rf $HOME/TEST_TUTO')
-	    os.system('cd $HOME && git clone https://github.com/HajaNirina22/TUTO')
+	    os.system('cd $HOME && git clone https://github.com/HajaNirina22/TEST')
 	    cb()
 	    print (logo)
 	    psb('☆10%')
@@ -183,7 +183,7 @@ def mb():
 	    psb('WellCome To NirinaOffisialy')
 	    psb('Congratulations NirinaOffisialy Tool Has Been Updated Successfully')
 	    psb('🔓User Name☆ Nirina✓')
-	    psb('🔓Password ☆ Offisialy✓')
+	    psb('🔓Password ☆ 123456✓')
 	    psb('Subscrib My Page Facebook Nirina Haja✓')
 	    psb('Please Login Again')
 	    time.sleep(2)
