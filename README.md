@@ -1,7 +1,9 @@
 # TEST/TUTO
 # Command Installation # { Nirina offisialy }
 
-dizzyboompray
+#Bonjour daholo , ☺️ ity ambany ity ilay command { Test }
+mazotoa daholo fa mbola hoavy ny manaraka 🥰😀
+<[ Nirina_Offisialy ]>
 
 $ apt update
 
